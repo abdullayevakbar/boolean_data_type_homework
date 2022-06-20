@@ -6,4 +6,7 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    from math import sqrt
+    b = sqrt(a)
+    b = int(b)
+    return (b*b == a)
